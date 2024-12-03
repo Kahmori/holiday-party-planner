@@ -1,6 +1,4 @@
 package com.ada.holiday_party_planning.model;
-
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -134,5 +132,10 @@ public class PartyOwner {
     @Override
     public int hashCode() {
         return Objects.hash(ownerId);
+    }
+
+    public void setOwnerId(UUID randomUUID) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setOwnerId'");
     }
 }

@@ -139,6 +139,10 @@ public class Event {
         return eventId;
     }
 
+    public void setEventId(UUID eventId) {
+        this.eventId = eventId;
+    }
+
     public String getTheme() {
         return theme;
     }

@@ -10,7 +10,7 @@ import java.util.UUID;
 
 public class PartyOwnerDTO {
 
-    private final UUID ownerId;
+    private UUID ownerId;
     private String name;
     private String email;
 
@@ -32,6 +32,10 @@ public class PartyOwnerDTO {
 
     public UUID getOwnerId() {
         return ownerId;
+    }
+
+    public void setOwnerId(UUID ownerId) {
+        this.ownerId = ownerId; 
     }
 
     public String getName() {
